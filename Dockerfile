@@ -23,6 +23,6 @@ COPY --chown=user:user custom_algorithm.py /opt/app/
 COPY --chown=user:user process.py /opt/app/
 
 # This is the checkpoint file, uncomment the line below and modify /local/path/to/the/checkpoint to your needs
-# COPY --chown=algorithm:algorithm /local/path/to/the/checkpoint /opt/algorithm/checkpoint
+COPY --chown=algorithm:algorithm 192_224_fz_sb16_N_latest.pth /opt/app/
 
 ENTRYPOINT [ "python", "-m", "process" ]
