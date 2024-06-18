@@ -1,0 +1,1 @@
+This repository contains a program packaged in a Docker container for segmenting head and neck organs from multimodal volumetric data. The repository was created to participate in "The Head and Neck Organ-at-Risk CT & MR Segmentation Challenge" on the GC platform (Grand Challenge).  
